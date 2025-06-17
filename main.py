@@ -130,7 +130,7 @@ def main():
     memory = user_memory.get(user_id, [])
 
     try:
-        genai.configure(api_key="AIzaSyB4QTO0xiS0BAvggEOMVVRmqGyo-pKyT_Q")
+        genai.configure(api_key="enter valid api key")
         model = genai.GenerativeModel('gemini-2.0-flash')
     except Exception as e:
         print(f"Failed to configure Gemini API: {e}")
